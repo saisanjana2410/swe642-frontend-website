@@ -1,0 +1,51 @@
+/* Set main GMU colors as variables */
+:root {
+    --gmu-green: #006633;
+    --gmu-yellow: #FFCC33;
+}
+
+/* Headings use GMU green */
+h1 { color: var(--gmu-green); }
+
+/* GMU green buttons styling */
+.btn-gmu-green {
+    background-color: var(--gmu-green);
+    border-color: var(--gmu-green);
+    color: #fff;
+}
+.btn-gmu-green:hover {
+    background-color: #045528;
+    border-color: #045528;
+    color: #fff;
+}
+
+/* Background color utility classes */
+.bg-gmu-green { background-color: var(--gmu-green) !important; }
+.bg-gmu-yellow { background-color: var(--gmu-yellow) !important; }
+
+/* Header box style for survey page */
+.header-box {
+    border: 5px solid var(--gmu-green);
+    border-radius: .5rem;
+    background-color: #ffffff;
+    color: var(--gmu-yellow);
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12), 0 6px 10px rgba(0,0,0,.08);
+    text-align: center;
+}
+
+/* Add asterisk for required labels */
+.required-label::after {
+    content: " *";
+    color: var(--gmu-yellow);
+    font-weight: 700;
+}
+
+/* Yellow divider line between form sections */
+.divider-yellow { border: 0; height: 2px; background: var(--gmu-yellow); }
+
+/* Light background for survey pages */
+body.bg-light { background-color: #f5f5f5 !important; }
+
+/* Hide browser tick marks for optional fields */
+.optional-field:valid { background-image: none !important; }
