@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My SWE 642 Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- W3.CSS framework -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body class="w3-light-grey">
+
+<!-- Top navigation bar -->
+<div class="w3-top">
+  <!-- Navbar container -->
+  <div class="w3-bar w3-white w3-padding-small w3-card" id="navbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">My Homepage</a>
+
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="/csdept.html" class="w3-bar-item w3-button w3-green">CS Dept →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Hero Section -->
+<header class="hero">
+  <img src="images/profile.jpg" alt="Profile background" class="hero-bg" aria-hidden="true">
+  <div class="hero-content">
+    <h1 class="name">Hello — I'm Sai Sanjana Kambalapally</h1>
+    <p class="hero-subtitle">MS - Computer Science.</p>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1200px; margin-top:70px;">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <div class="about-card w3-row w3-white w3-card-4 w3-padding-16 w3-round-large">
+      <!-- Profile Image -->
+      <div class="w3-col m4 l3 w3-center">
+        <div class="profile-img-container">
+          <img src="images/Sanjana.jpg" alt="Profile photo" class="profile-img w3-circle">
+        </div>
+      </div>
+
+      <!-- About Text -->
+      <div class="w3-col m8 l9 about-text">
+        <p>
+          Hi! I’m <strong>Sai Sanjana Kambalapally</strong>, a Master’s student in <strong>Computer Science</strong> at 
+          <strong>George Mason University</strong>. I have a strong background in <strong>cybersecurity</strong> and 
+          <strong>software development</strong>, with hands-on experience in <strong>Python</strong>, <strong>Machine Learning</strong>, and 
+          <strong>Web Technologies</strong>. I enjoy building innovative projects, exploring cybersecurity challenges, 
+          and applying my skills to practical problems. Outside academics, I’m passionate about <strong>teaching</strong>, 
+          organizing workshops, and collaborating on tech projects.
+        </p>
+
+        <!-- Skill Badges -->
+        <div class="skills-badges">
+          <span class="badge"><i class="fa fa-code"></i> Web Dev & Software Eng</span>
+          <span class="badge"><i class="fa fa-shield-alt"></i> Cybersecurity & Cryptography</span>
+          <span class="badge"><i class="fa fa-robot"></i> ML & AI</span>
+          <span class="badge"><i class="fa fa-coins"></i> Blockchain & Crypto</span>
+          <span class="badge"><i class="fa fa-chalkboard-teacher"></i> Teaching & Mentorship</span>
+          <span class="badge"><i class="fa fa-lightbulb"></i> Problem Solving & Innovation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+    <div class="projects-row">
+      <div class="project-card">
+        <div class="w3-card-4 w3-white w3-padding">
+          <h4>EffortlessOps: Secure Employee Management System</h4>
+          <p class="w3-opacity">Developed a secure employee management system using MERN stack, Bootstrap, and Socket.io.</p>
+          <ul>
+            <li>Payroll automation and employee monitoring</li>
+            <li>Image-based fraud detection and leave management</li>
+            <li>Built-in chat functionality for seamless communication</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="w3-card-4 w3-white w3-padding">
+          <h4>Cryptocurrency Price Prediction System Using LSTM</h4>
+          <p class="w3-opacity">Predicted cryptocurrency prices using LSTM and Flask, integrated into a Chrome extension.</p>
+          <ul>
+            <li>Real-time predictions and visual data graphs</li>
+            <li>User-customized cryptocurrency tracking</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="w3-card-4 w3-white w3-padding">
+          <h4>Smart Attendance System Using Face Recognition</h4>
+          <p class="w3-opacity">Automated attendance tracking using Python and machine learning.</p>
+          <ul>
+            <li>Weekly attendance graphs and total attendance percentages</li>
+            <li>Real-time voice alerts during image capture</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <div class="contact-card w3-white w3-card-4 w3-padding-32 w3-round-large">
+      <div class="contact-item">
+        <i class="fa fa-envelope"></i>
+        <span>Email: skambala@gmu.edu</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa fa-map-marker-alt"></i>
+        <span>Location: Fairfax, VA</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa fa-link"></i>
+        <a href="https://www.linkedin.com/in/sanjana-kambalapally/?originalSubdomain=in" target="_blank">LinkedIn</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa fa-github"></i>
+        <a href="https://github.com/saisanjana2410">github</a>
+      </div>
+
+      <div class="contact-btn-container">
+        <a class="w3-button w3-green w3-round contact-btn" href="/csdept.html">Visit CS Dept Site →</a>
+      </div>
+      <div class="contact-btn-container">
+        <a class="w3-button w3-green w3-round contact-btn" href="/survey.html">Take a CS department survey →</a>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- End of page content -->
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-16 w3-light-grey">
+  <p>© <span id="year">2025</span> Sai Sanjana Kambalapally — SWE 642</p>
+</footer>
+
+</body>
+</html>
